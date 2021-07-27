@@ -224,7 +224,7 @@ class TitleState extends MusicBeatState
 		blackScreen = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		credGroup.add(blackScreen);
 
-		credTextShit = new Alphabet(0, 0, "ninjamuffin99\nPhantomArcade\nkawaisprite\nevilsk8er", true);
+		credTextShit = new Alphabet(0, 0, "KrTe\nAtsuover\nRageminer", true);
 		credTextShit.screenCenter();
 
 		// credTextShit.alignment = CENTER;
@@ -398,7 +398,7 @@ FlxG.switchState(new MainMenuState());
 		switch (curBeat)
 		{
 			case 1:
-				createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+				createCoolText(['krte', 'Atsuover', 'rageminer', ' ']);
 			// credTextShit.visible = true;
 			case 3:
 				addMoreText('present');
@@ -407,7 +407,7 @@ FlxG.switchState(new MainMenuState());
 			case 4:
 				deleteCoolText();
 			// credTextShit.visible = false;
-			// credTextShit.text = 'In association \nwith';
+			// credTextShit.text = 'Made Using \nKade Engine';
 			// credTextShit.screenCenter();
 			case 5:
 				if (Main.watermarks)
