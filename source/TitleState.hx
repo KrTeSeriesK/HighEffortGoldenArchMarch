@@ -162,7 +162,7 @@ class TitleState extends MusicBeatState
 			FlxG.sound.music.fadeIn(4, 0, 0.7);
 		}
 
-		Conductor.changeBPM(102);
+		Conductor.changeBPM(110);
 		persistentUpdate = true;
 
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
@@ -398,11 +398,11 @@ FlxG.switchState(new MainMenuState());
 		switch (curBeat)
 		{
 			case 1:
-				createCoolText(['krte', 'Atsuover', 'rageminer', ' ']);
+				createCoolText(['krte', 'atsuover', 'rageminer', 'and more']);
 			// credTextShit.visible = true;
 			case 3:
-				addMoreText('present');
-			// credTextShit.text += '\npresent...';
+				addMoreText('presenting');
+			// credTextShit.text += '\npresenting';
 			// credTextShit.addText();
 			case 4:
 				deleteCoolText();
@@ -411,12 +411,12 @@ FlxG.switchState(new MainMenuState());
 			// credTextShit.screenCenter();
 			case 5:
 				if (Main.watermarks)
-					createCoolText(['Kade Engine', 'by']);
+					createCoolText(['smoke em out struggle', 'made by']);
 				else
 					createCoolText(['In Partnership', 'with']);
 			case 7:
 				if (Main.watermarks)
-					addMoreText('KadeDeveloper');
+					addMoreText('rageminer and atsuover');
 				else
 				{
 					addMoreText('Newgrounds');
