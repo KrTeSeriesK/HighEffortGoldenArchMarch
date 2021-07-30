@@ -442,10 +442,10 @@ FlxG.switchState(new MainMenuState());
 			// credTextShit.text = "Friday";
 			// credTextShit.screenCenter();
 			case 13:
-				addMoreText('High Effort');
+				addMoreText('Golden');
 			// credTextShit.visible = true;
 			case 14:
-				addMoreText('Golden Arch');
+				addMoreText('Arch');
 			// credTextShit.text += '\nNight';
 			case 15:
 				addMoreText('March'); // credTextShit.text += '\nFunkin';
